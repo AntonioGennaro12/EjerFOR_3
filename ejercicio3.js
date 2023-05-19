@@ -3,7 +3,9 @@ const   miLab1      =   document.querySelector ("#mi-lab1");
 
 const   MAX_COUNT   =   50;
 
-
+/**
+ * Genera código HTML
+ */
 function generaCodigo() {
     miDiv1.innerHTML = "";  // borra todo
     let num = miLab1.value;
